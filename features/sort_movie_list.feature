@@ -23,6 +23,8 @@ Background: movies have been added to database
 
 Scenario: sort movies alphabetically
   When I follow "Movie Title"
+  Then I should be on the RottenPotatoes home page
+#  And  I should see 
   # your steps here
 
 Scenario: sort movies in increasing order of release date
